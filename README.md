@@ -1,4 +1,4 @@
-##Welcome to The Poker Game
+## Welcome to The Poker Game
 
 How to run the code
 
