@@ -1,0 +1,12 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\muzin\\Google Drive\\Personal\\Poker App\\jni4net-0.8.8.0-bin\\lib\\jni4net.j-0.8.8.0.jar",
+        "src/junit-4.10.jar",
+        "src/mockito-all-1.9.5.jar",
+        "src/powermock-api-mockito2-2.0.9.jar",
+        "src/test/junit-4.10.jar"
+    ]
+}
