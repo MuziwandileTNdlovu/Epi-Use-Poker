@@ -1,7 +1,7 @@
 #!/bin/bash
-javac  -cp :junit-4.10.jar:test/junit/hamcrest-core-1.1.jar *.java
-java -cp :junit-4.10.jar:test/junit/hamcrest-core-1.1.jar AppTest
-java -cp :junit-4.10.jar:test/junit/hamcrest-core-1.1.jar DeckTest
-java -cp :junit-4.10.jar:test/junit/hamcrest-core-1.1.jar CardTest
-java -cp :junit-4.10.jar:test/junit/hamcrest-core-1.1.jar PlayerTest
+javac -cp "./junit/junit-4.11.jar" *.java
+java -cp "./junit/junit-4.11.jar;./junit/hamcrest-all-1.3.jar;." org.junit.runner.JUnitCore AppTest
+java -cp "./junit/junit-4.11.jar;./junit/hamcrest-all-1.3.jar;." org.junit.runner.JUnitCore DeckTest
+java -cp "./junit/junit-4.11.jar;./junit/hamcrest-all-1.3.jar;." org.junit.runner.JUnitCore CardTest
+java -cp "./junit/junit-4.11.jar;./junit/hamcrest-all-1.3.jar;." org.junit.runner.JUnitCore PlayerTest
 java App

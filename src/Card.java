@@ -1,14 +1,15 @@
 
 
+
 public class Card {
     public SUIT suit;
     public TYPE type;
     //ENUM TO STORE THE COLLECTION OF SUITS
     public static enum SUIT{
-        SPADE('\u2660'),
-        DIAMOND('\u2B29'),
-        HEART('\u2665'),
-        CLUB('\u2663');
+        SPADE('\u0006'),
+        DIAMOND('\u0004'),
+        HEART('\u0003'),
+        CLUB('\u0005');
         public final char label;
         private SUIT(char label) {
             this.label = label;
